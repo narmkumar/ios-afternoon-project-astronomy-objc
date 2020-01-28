@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		4B86E72923DF666F0063B8A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B86E72823DF666F0063B8A7 /* AppDelegate.m */; };
 		4B86E72C23DF666F0063B8A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B86E72B23DF666F0063B8A7 /* SceneDelegate.m */; };
-		4B86E72F23DF666F0063B8A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B86E72E23DF666F0063B8A7 /* ViewController.m */; };
 		4B86E73223DF666F0063B8A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B86E73023DF666F0063B8A7 /* Main.storyboard */; };
 		4B86E73423DF66710063B8A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B86E73323DF66710063B8A7 /* Assets.xcassets */; };
 		4B86E73723DF66710063B8A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B86E73523DF66710063B8A7 /* LaunchScreen.storyboard */; };
 		4B86E73A23DF66710063B8A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B86E73923DF66710063B8A7 /* main.m */; };
+		4BD93D4B23E0C1FB00449BDC /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD93D4A23E0C1FB00449BDC /* PhotoCollectionViewController.swift */; };
+		4BD93D4F23E0C26200449BDC /* NMKRoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD93D4E23E0C26200449BDC /* NMKRoverController.m */; };
+		4BD93D5223E0C28000449BDC /* NMKRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD93D5123E0C28000449BDC /* NMKRover.m */; };
+		4BD93D5423E0C37F00449BDC /* SolInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD93D5323E0C37F00449BDC /* SolInformation.swift */; };
+		4BD93D5923E0CDE500449BDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD93D5823E0CDE500449BDC /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,19 @@
 		4B86E72823DF666F0063B8A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4B86E72A23DF666F0063B8A7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		4B86E72B23DF666F0063B8A7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		4B86E72D23DF666F0063B8A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B86E72E23DF666F0063B8A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4B86E73123DF666F0063B8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B86E73323DF66710063B8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B86E73623DF66710063B8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B86E73823DF66710063B8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B86E73923DF66710063B8A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BD93D4A23E0C1FB00449BDC /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		4BD93D4D23E0C26200449BDC /* NMKRoverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMKRoverController.h; sourceTree = "<group>"; };
+		4BD93D4E23E0C26200449BDC /* NMKRoverController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMKRoverController.m; sourceTree = "<group>"; };
+		4BD93D5023E0C28000449BDC /* NMKRover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMKRover.h; sourceTree = "<group>"; };
+		4BD93D5123E0C28000449BDC /* NMKRover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMKRover.m; sourceTree = "<group>"; };
+		4BD93D5323E0C37F00449BDC /* SolInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolInformation.swift; sourceTree = "<group>"; };
+		4BD93D5823E0CDE500449BDC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4BD93D6323E0EB3800449BDC /* Bridge-Hybrid-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Hybrid-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 		4B86E71B23DF666F0063B8A7 = {
 			isa = PBXGroup;
 			children = (
+				4BD93D5823E0CDE500449BDC /* Default-568h@2x.png */,
 				4B86E72623DF666F0063B8A7 /* Astronomy-Hybrid */,
 				4B86E72523DF666F0063B8A7 /* Products */,
 			);
@@ -61,19 +72,64 @@
 		4B86E72623DF666F0063B8A7 /* Astronomy-Hybrid */ = {
 			isa = PBXGroup;
 			children = (
+				4BD93D4C23E0C21F00449BDC /* App Lifecycle */,
+				4BD93D5623E0C5CD00449BDC /* View Controllers */,
+				4BD93D5523E0C5C200449BDC /* Model Controller */,
+				4BD93D5F23E0E9B700449BDC /* Model */,
+				4BD93D5723E0C5DC00449BDC /* Resources */,
+			);
+			path = "Astronomy-Hybrid";
+			sourceTree = "<group>";
+		};
+		4BD93D4C23E0C21F00449BDC /* App Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
 				4B86E72723DF666F0063B8A7 /* AppDelegate.h */,
 				4B86E72823DF666F0063B8A7 /* AppDelegate.m */,
 				4B86E72A23DF666F0063B8A7 /* SceneDelegate.h */,
 				4B86E72B23DF666F0063B8A7 /* SceneDelegate.m */,
-				4B86E72D23DF666F0063B8A7 /* ViewController.h */,
-				4B86E72E23DF666F0063B8A7 /* ViewController.m */,
+			);
+			path = "App Lifecycle";
+			sourceTree = "<group>";
+		};
+		4BD93D5523E0C5C200449BDC /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BD93D4D23E0C26200449BDC /* NMKRoverController.h */,
+				4BD93D4E23E0C26200449BDC /* NMKRoverController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		4BD93D5623E0C5CD00449BDC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BD93D4A23E0C1FB00449BDC /* PhotoCollectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4BD93D5723E0C5DC00449BDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				4B86E73023DF666F0063B8A7 /* Main.storyboard */,
 				4B86E73323DF66710063B8A7 /* Assets.xcassets */,
 				4B86E73523DF66710063B8A7 /* LaunchScreen.storyboard */,
 				4B86E73823DF66710063B8A7 /* Info.plist */,
 				4B86E73923DF66710063B8A7 /* main.m */,
 			);
-			path = "Astronomy-Hybrid";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4BD93D5F23E0E9B700449BDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BD93D6323E0EB3800449BDC /* Bridge-Hybrid-Header.h */,
+				4BD93D5323E0C37F00449BDC /* SolInformation.swift */,
+				4BD93D5023E0C28000449BDC /* NMKRover.h */,
+				4BD93D5123E0C28000449BDC /* NMKRover.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +158,13 @@
 		4B86E71C23DF666F0063B8A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NMK;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Nar Kumar";
 				TargetAttributes = {
 					4B86E72323DF666F0063B8A7 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -134,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B86E73723DF66710063B8A7 /* LaunchScreen.storyboard in Resources */,
+				4BD93D5923E0CDE500449BDC /* Default-568h@2x.png in Resources */,
 				4B86E73423DF66710063B8A7 /* Assets.xcassets in Resources */,
 				4B86E73223DF666F0063B8A7 /* Main.storyboard in Resources */,
 			);
@@ -146,10 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B86E72F23DF666F0063B8A7 /* ViewController.m in Sources */,
+				4BD93D4F23E0C26200449BDC /* NMKRoverController.m in Sources */,
+				4BD93D5223E0C28000449BDC /* NMKRover.m in Sources */,
 				4B86E72923DF666F0063B8A7 /* AppDelegate.m in Sources */,
 				4B86E73A23DF66710063B8A7 /* main.m in Sources */,
+				4BD93D5423E0C37F00449BDC /* SolInformation.swift in Sources */,
 				4B86E72C23DF666F0063B8A7 /* SceneDelegate.m in Sources */,
+				4BD93D4B23E0C1FB00449BDC /* PhotoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +351,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Astronomy-Hybrid/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,6 +361,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "NarKumar.Astronomy-Hybrid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Bridge-Hybrid-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,7 +372,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Astronomy-Hybrid/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +382,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "NarKumar.Astronomy-Hybrid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge-Hybrid-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Bridge-Hybrid-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
